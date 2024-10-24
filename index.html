@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat em Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Game Logo">
+        </div>
+        <h1>Beat em Up</h1>
+    </header>
+
+    <section id="carousel">
+        <div class="slider">
+            <div>
+                <img src="slide1.jpg" alt="Slide 1">
+            </div>
+            <div>
+                <img src="slide2.jpg" alt="Slide 2">
+            </div>
+            <div>
+                <img src="slide3.jpg" alt="Slide 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About the Game</h2>
+        <p class="limited-width">Introducing "Beat em Up," an simplistic 2D fighter game where you face off against a bosses in a one-on-one battle. </p>
+        <p class="limited-width">This game is a School project made in unity. It features a simple movement system as well as simple boss AI. </p>
+        <div class="container">
+            <div class="text-center">
+              <h2>Tutorial Video</h2>
+              <br>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U38APW2pVrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <p><a href="Beat em Up setup.exe" class="download-button" download>Download Now</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Beat em Up. No rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick();
+        });
+    </script>
+</body>
+
+</html>
